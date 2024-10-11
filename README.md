@@ -10,22 +10,20 @@ In a completely different part of my life, I work in finance.
 
 ### Winter 24/25 (in progress)
 
-<a href="https://raw.githubusercontent.com/Ayushi141/WiSe-2425-Galois-Cohomology-of-Algebraic-Groups/main/lecture_notes.pdf" target="_blank" rel="noopener noreferrer">Galois Cohomology of Algebraic Groups</a> (Prof. Kammeyer)
+[Galois Cohomology of Algebraic Groups](https://raw.githubusercontent.com/Ayushi141/WiSe-2425-Galois-Cohomology-of-Algebraic-Groups/main/lecture_notes.pdf) (Prof. Kammeyer)
 
 ### Summer 24
 
-Bachelor thesis "Bridging Model Theory and Machine Learning" (independent, Prof. Hieronymi)
+[Bachelor thesis "Bridging Model Theory and Machine Learning"](https://raw.githubusercontent.com/Ayushi141/SoSe24-Bachelorarbeit/main/bachelor_thesis.pdf) (Prof. Hieronymi)
 
-Introduction to Statistics (Prof. Eberle)
+[Introduction to Statistics](https://raw.githubusercontent.com/Ayushi141/SoSe-24-Einf.-in-die-Statistik/main/lecture_notes.pdf) (Prof. Eberle)
 
 ### Winter 23/24
 
-Topology I (Prof. Lück)
+[Topology I](https://raw.githubusercontent.com/Ayushi141/WiSe-2324-Topologie-I/main/lecture_notes.pdf) (Prof. Lück)
 
-Introduction to Discrete Mathematics (Prof. Vygen)
+[Introduction to Discrete Mathematics](https://raw.githubusercontent.com/Ayushi141/WiSe-2324-EDM/main/lecture_notes.pdf) (Prof. Vygen)
 
 ### Summer 23
 
-Algebra I (Dr. Mihatsch)
-
-Introduction to Topology (Prof. Lück)
+[Algebra I](https://raw.githubusercontent.com/Ayushi141/SoSe-23-Algebra-I/main/lecture_notes.pdf) (Dr. Mihatsch)
