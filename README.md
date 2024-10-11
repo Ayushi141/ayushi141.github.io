@@ -8,9 +8,9 @@ In a completely different part of my life, I work in finance.
 
 ## Lecture notes
 
-### Winter 24/25
+### Winter 24/25 (in progress)
 
-[Galois Cohomology of Algebraic Groups](https://raw.githubusercontent.com/Ayushi141/WiSe-2425-Galois-Cohomology-of-Algebraic-Groups/main/lecture_notes.pdf) (Prof. Kammeyer)
+<a href="https://raw.githubusercontent.com/Ayushi141/WiSe-2425-Galois-Cohomology-of-Algebraic-Groups/main/lecture_notes.pdf" target="_blank" rel="noopener noreferrer">Galois Cohomology of Algebraic Groups</a> (Prof. Kammeyer)
 
 ### Summer 24
 
@@ -21,7 +21,6 @@ Introduction to Statistics (Prof. Eberle)
 ### Winter 23/24
 
 Topology I (Prof. Lück)
-https://raw.githubusercontent.com/Ayushi141/WiSe-2425-Galois-Cohomology-of-Algebraic-Groups/main/lecture_notes.pdf
 
 Introduction to Discrete Mathematics (Prof. Vygen)
 
