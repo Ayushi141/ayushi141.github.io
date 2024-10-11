@@ -13,6 +13,7 @@ Galois Cohomology of Algebraic Groups (Prof. Kammeyer)
 ### Summer 24
 
 Bachelor thesis "Bridging Model Theory and Machine Learning" (independent)
+
 Introduction to Statistics (Prof. Eberle)
 
 ### Winter 23/24
@@ -22,4 +23,5 @@ Topology I (Prof. Lück)
 ### Summer 23
 
 Algebra I (Dr. Mihatsch)
+
 Introduction to Topology (Prof. Lück)
