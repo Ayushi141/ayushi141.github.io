@@ -2,13 +2,13 @@ You can reach me at ayushi at gmx de.
 
 ## About me 
 
-I am an undergraduate student at the University of Bonn. I'm interested (very broadly) in model theory and have taken graduate level courses in algebraic topology, algebraic geometry, combinatorial optimization and probability theory. My interests were all over the place :D Here you can find a collection of notes from courses I've attended over the years. 
+I hold a B.Sc. in mathematics from the University of Bonn. My research interests are focused on model theory (in particular neo-stability theory). I have also dabbled in algebraic topology, algebraic geometry, probability theory and combinatorial optimization. Here you can find a collection of notes from courses I've attended over the years. 
 
 In a completely different part of my life, I work in finance.
 
 ## Lecture notes
 
-### Winter 24/25 (in progress)
+### Winter 24/25
 
 [Galois Cohomology of Algebraic Groups](https://raw.githubusercontent.com/Ayushi141/WiSe-2425-Galois-Cohomology-of-Algebraic-Groups/main/lecture_notes.pdf) (Prof. Kammeyer)
 
