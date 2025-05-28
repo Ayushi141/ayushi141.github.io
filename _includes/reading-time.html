@@ -1,0 +1,7 @@
+{%- assign words = include.content | number_of_words -%}
+{%- assign wpm = site.reading_speed | default: 200 -%}
+{%- assign minutes = words | divided_by: wpm | round -%}
+{%- if minutes == 0 -%}
+{%- assign minutes = 1 -%}
+{%- endif -%}
+{{ minutes }} min. read

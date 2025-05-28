@@ -1,0 +1,83 @@
+---
+layout: page
+title: Lecture Notes
+permalink: /lecture_notes/
+---
+
+<p>These are a selection of my notes of courses taught at Uni Bonn or HHU. If you're interested in the code, have a look on <a href="https://github.com/Ayushi141">Github</a>.</p>
+
+<div class="notes-grid">
+    {% for note in site.data.lecture_notes %}
+    <div class="note-card">
+        <div class="note-head">
+            <p class="post-meta">{{ note.course_code }}</p>
+            <p class="post-link">{{ note.title }}</p>
+        </div>
+        <div class="note-body">
+            <p class="note-type">{{ note.type }}</p>
+            <p class="description">{{ note.description }}</p>
+            <a href="{{ '/lecture_notes/' | append: note.filename | relative_url }}" class="btn btn-primary">
+                View Notes
+            </a>
+        </div>
+    </div>
+    {% endfor %}
+</div>
+
+<style>
+    .notes-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 20px;
+        margin-top: 30px;
+    }
+
+    .note-card {
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+        border: 1px solid gray;
+    }
+
+    .note-head {
+        padding: 1em;
+        border-bottom: 1px solid lightgray;
+    }
+
+    .note-body {
+        padding: 1em;
+    }
+
+    .note-type {
+        font-weight: 600;
+    }
+
+    .note-card h3 {
+        margin-top: 0;
+        color: #333;
+    }
+
+    .course-code {
+        font-weight: bold;
+        color: #666;
+        margin: 5px 0;
+    }
+
+    .description {
+        color: inherit;
+        margin-bottom: 15px;
+    }
+
+    .btn {
+        display: inline-block;
+        padding: 8px 16px;
+        background: #007cba;
+        color: white;
+        text-decoration: none;
+        border-radius: 4px;
+    }
+
+    .btn:hover {
+        background: #005a85;
+    }
+</style>

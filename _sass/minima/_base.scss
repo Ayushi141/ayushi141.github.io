@@ -26,6 +26,7 @@ body {
   display: flex;
   min-height: 100vh;
   flex-direction: column;
+  padding: 3em 1em;
 }
 
 
@@ -37,7 +38,6 @@ h1, h2, h3, h4, h5, h6,
 p, blockquote, pre,
 ul, ol, dl, figure,
 %vertical-rhythm {
-  margin-bottom: $spacing-unit * 0.5;
 }
 
 
@@ -59,42 +59,11 @@ img {
   vertical-align: middle;
 }
 
-
-
-/**
- * Figures
- */
-figure > img {
-  display: block;
-}
-
-figcaption {
-  font-size: $small-font-size;
-}
-
-
-
-/**
- * Lists
- */
-ul, ol {
-  margin-left: $spacing-unit;
-}
-
-li {
-  > ul,
-  > ol {
-    margin-bottom: 0;
-  }
-}
-
-
-
 /**
  * Headings
  */
 h1, h2, h3, h4, h5, h6 {
-  font-weight: $base-font-weight;
+  font-weight: 600;
 }
 
 
@@ -107,7 +76,7 @@ a {
   text-decoration: none;
 
   &:visited {
-    color: darken($brand-color, 15%);
+    color: rgb(58, 52, 58);
   }
 
   &:hover {
@@ -250,5 +219,104 @@ table {
   }
   td {
     border: 1px solid $grey-color-light;
+  }
+}
+
+
+/**
+ * Sidebar
+ */
+// Two-column layout
+.page-layout {
+  display: flex;
+  min-height: 100vh;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+// Sidebar styles
+.sidebar {
+  flex: 0 0 300px; // Fixed width sidebar
+  height: fit-content;
+  padding: 1rem 2rem 1rem 1rem;
+  margin-right: 16px;
+
+  // Profile section
+  .profile-section {
+
+    .profile-img {
+      border-radius: 50%;
+      margin-right: 1rem;
+    }
+
+    .profile-name {
+      font-weight: 700;
+      font-size: 80%;
+      margin: 0.5em 0;
+    }
+  }
+
+  .bio {
+    font-size: 80%;
+  }
+
+  .social-links {
+    margin-top: 0.7rem;
+
+    span {
+      margin-right: 0.8rem;
+
+      a {
+        color: rgba(117,112,117,255);
+        font-size: 0.9rem;
+      }
+    }
+  }
+
+  .sidebar-nav {
+    ul {
+      list-style: none;
+      padding: 1em 0;
+
+      li {
+        margin-bottom: 0.7rem;
+        margin-left: -0.5em;
+        padding-left: 0;
+        font-size: 80%;
+
+        a {
+          list-style-type: none;
+          margin: 0;
+          color: inherit;
+          padding: 0.5em;
+          font-weight: 700;
+
+          &:hover,
+          &.active {
+            border-left: 1px solid rgb(76, 86, 106);
+          }
+        }
+      }
+    }
+  }
+}
+
+// Main content area
+.main-content {
+  flex: 1;
+  min-width: 0; // Prevents flex item from overflowing
+  padding: 1rem 0;
+}
+
+// Responsive design
+@media screen and (max-width: 900px) {
+  .page-layout {
+    flex-direction: column;
+  }
+
+  .sidebar {
+    position: static;
+    flex: none;
+    order: -1; // Sidebar on top on mobile
   }
 }

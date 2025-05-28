@@ -1,0 +1,26 @@
+<div class="profile-section">
+    <a href="{{ '/' | relative_url }}" class="profile-link">
+        <img src="{{ '/assets/images/profile-pic.jpg' | relative_url }}"
+             alt="Profile picture"
+             width="60"
+             height="60"
+             class="profile-img">
+    </a>
+    <div class="profile-name">Ayushi</div>
+</div>
+
+<div class="bio">
+    BSc Mathematics @Uni Bonn. Software engineer interested in everything.
+</div>
+
+<div class="social-links">
+    <span><a href="https://github.com/Ayushi141" target="_blank" rel="noopener noreferrer">Github</a></span>
+    <span><a href="https://twitter.com/acidglxtter" target="_blank" rel="noopener noreferrer">Twitter</a></span>
+</div>
+
+<nav class="sidebar-nav">
+    <ul>
+        <li><a href="{{ '/' | relative_url }}" {% if page.url == '/' %}class="active"{% endif %}>Articles</a></li>
+        <li><a href="{{ '/lecture_notes' | relative_url }}" {% if page.url contains '/lecture_notes' %}class="active"{% endif %}>Lecture Notes</a></li>
+    </ul>
+</nav>

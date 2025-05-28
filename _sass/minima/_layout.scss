@@ -106,7 +106,6 @@
  * Site footer
  */
 .site-footer {
-  border-top: 1px solid $grey-color-light;
   padding: $spacing-unit 0;
 }
 
@@ -176,8 +175,9 @@
  * Page content
  */
 .page-content {
-  padding: $spacing-unit 0;
+  padding: 18px;
   flex: 1;
+  width: 680px;
 }
 
 .page-heading {
@@ -198,13 +198,28 @@
 }
 
 .post-meta {
-  font-size: $small-font-size;
-  color: $grey-color;
+  font-family: Inter, sans-serif;
+  line-height: 1.4;
+  color: inherit;
+  box-sizing: border-box;
+  font-size: 60%;
+  font-weight: 700;
+  font-variant: small-caps;
+  text-transform: uppercase;
+
 }
 
 .post-link {
   display: block;
+  color: inherit;
+  margin: 0.2em 0em;
   @include relative-font-size(1.5);
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+.post-excerpt {
+  font-size: 80%;
 }
 
 
@@ -212,6 +227,18 @@
 /**
  * Posts
  */
+.post.h-entry {
+  font-family: Inter, sans-serif;
+  line-height: 1.4;
+  color: rgb(58, 52, 58);
+  font-size: 18px;
+  text-rendering: optimizelegibility;
+  box-sizing: border-box;
+  max-width: 680px;
+  margin: 0px auto;
+  padding: 1em;
+}
+
 .post-header {
   margin-bottom: $spacing-unit;
 }
@@ -224,10 +251,19 @@
   @include media-query($on-laptop) {
     @include relative-font-size(2.25);
   }
+  font-family: Inter, sans-serif;
+  box-sizing: border-box;
+  font-size: 230%;
+  font-weight: 700;
+  width: 100%;
+  text-align: center;
+  margin: 2.8rem 0 2.8rem 0;
 }
 
 .post-content {
   margin-bottom: $spacing-unit;
+  line-height: 1.4;
+  font-size: 18px;
 
   h2 {
     @include relative-font-size(2);
