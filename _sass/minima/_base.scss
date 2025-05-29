@@ -29,8 +29,6 @@ body {
   padding: 3em 1em;
 }
 
-
-
 /**
  * Set `margin-bottom` to maintain vertical rhythm
  */
@@ -230,8 +228,9 @@ table {
 .page-layout {
   display: flex;
   min-height: 100vh;
-  max-width: 1200px;
+  max-width: 100%;
   margin: 0 auto;
+  overflow-x: hidden;
 }
 
 // Sidebar styles

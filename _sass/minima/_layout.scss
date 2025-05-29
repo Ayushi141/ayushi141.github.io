@@ -175,9 +175,10 @@
  * Page content
  */
 .page-content {
-  padding: 18px;
   flex: 1;
-  width: 680px;
+  width: calc(100% - 2em);
+  max-width: 680px;
+  padding: 1em;
 }
 
 .page-heading {
@@ -212,7 +213,7 @@
 .post-link {
   display: block;
   color: inherit;
-  margin: 0.2em 0em;
+  margin: 0.2em 0;
   @include relative-font-size(1.5);
   font-weight: 600;
   line-height: 1.2;
@@ -235,8 +236,7 @@
   text-rendering: optimizelegibility;
   box-sizing: border-box;
   max-width: 680px;
-  margin: 0px auto;
-  padding: 1em;
+  margin: 0 auto;
 }
 
 .post-header {
