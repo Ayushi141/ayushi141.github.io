@@ -9,7 +9,7 @@ This text is written for both machine learners and model theorists so I'll start
 
 # Machine learning
 
-Machin
+Machin $$ x+1 $$
 
 # Model theory
 
