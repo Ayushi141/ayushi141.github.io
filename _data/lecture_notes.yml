@@ -1,14 +1,14 @@
-- filename: "bachelor_thesis.pdf"
-  title: "Bridging Model Theory and Machine Learning"
-  type: "Bachelor's thesis"
-  description: "Proof of the equivalence between NIP and stable theories in model theory and PAC and online learnable concept classes in computational learning theory"
-  course_code: "SS2024 ● EN ● PROF. HIERONYMI ● 12 ECTS"
-
 - filename: "galois_cohomology.pdf"
   title: "Galois Cohomology of Algebraic Groups"
   type: "Ring lecture"
   description: "The cohomological approach to arithmetic problems like rational points and classification of algebraic groups, progressing from algebraic number theory foundations through Poitou-Tate duality to applications for simple groups over number fields."
   course_code: "WS2024 ● EN ● PROF. KAMMEYER ● 9 ECTS"
+
+- filename: "bachelor_thesis.pdf"
+  title: "Bridging Model Theory and Machine Learning"
+  type: "Bachelor's thesis"
+  description: "Proof of the equivalence between NIP and stable theories in model theory and PAC and online learnable concept classes in computational learning theory"
+  course_code: "SS2024 ● EN ● PROF. HIERONYMI ● 12 ECTS"
 
 - filename: "einf_statistik.pdf"
   title: "Introduction to Statistics"
