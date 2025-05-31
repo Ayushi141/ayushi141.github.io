@@ -11,14 +11,11 @@ permalink: /lecture_notes/
     <div class="note-card">
         <div class="note-head">
             <p class="post-meta">{{ note.course_code }}</p>
-            <p class="post-link">{{ note.title }}</p>
+            <a class="post-link" href="{{ '/lecture_notes/' | append: note.filename | relative_url }}">{{ note.title }}</a>
         </div>
         <div class="note-body">
             <p class="note-type">{{ note.type }}</p>
             <p class="description">{{ note.description }}</p>
-            <a href="{{ '/lecture_notes/' | append: note.filename | relative_url }}" class="btn btn-primary">
-                View Notes
-            </a>
         </div>
     </div>
     {% endfor %}
